@@ -1,6 +1,7 @@
 -- // converted using mech's animoduler
 local cfr = CFrame.new
-
+music.SoundId = "rbxassetid://16408542103"
+music.PlaybackSpeed = 1/.5325
 return {
 	{
 		tm = 0;
