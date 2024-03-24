@@ -1,4 +1,4 @@
-local music = owner.Character.PrimaryPart.Music
+local music = owner.Character.Torso.Music
 music.SoundId = "rbxassetid://16408542103"
 music.PlaybackSpeed = 1/.5325
 
