@@ -1,3 +1,5 @@
+local cfr = CFrame.new
+
 return {
 	{
 		tm = 0;
