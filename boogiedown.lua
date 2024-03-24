@@ -1,4 +1,4 @@
-return function()
+
 	return {
 	{
 		tm = 0;
