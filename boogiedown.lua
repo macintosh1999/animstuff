@@ -1,5 +1,7 @@
+-- // converted using mech's animoduler
+local cfr = CFrame.new
 
-	return {
+return {
 	{
 		tm = 0;
 		["Torso"] = {
