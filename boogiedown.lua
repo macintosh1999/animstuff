@@ -1,4 +1,5 @@
-return {
+return function()
+	return {
 	{
 		tm = 0;
 		["Torso"] = {
