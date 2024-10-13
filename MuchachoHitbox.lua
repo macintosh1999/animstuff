@@ -217,8 +217,8 @@ ________________________________________________________________________________
 local rs = game:GetService("RunService")
 local hs = game:GetService("HttpService")
 
-local GoodSignal = loadstring(hs:GetAsync("https://raw.githubusercontent.com/MechaXYZ/Modules/main/GoodSignal.lua"))()
-local DictDiff = loadstring(hs:GetAsync("https://raw.githubusercontent.com/MechaXYZ/Modules/main/DictDiff.lua"))()
+local GoodSignal = loadstring(hs:GetAsync("https://raw.githubusercontent.com/macintosh1999/animstuff/refs/heads/main/GoodSignal.lua"))()
+local DictDiff = loadstring(hs:GetAsync("https://raw.githubusercontent.com/macintosh1999/animstuff/refs/heads/main/DictDiff.lua"))()
 
 local muchacho_hitbox = {}
 muchacho_hitbox.__index = muchacho_hitbox
