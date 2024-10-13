@@ -777,7 +777,7 @@ do
 							(tick() - s) / ntm, es, ed
 						))
 
-						local alpha = min(self.lerpFactor * max(1, speed), 1)
+						local alpha = min(.1 * max(1, speed), 1)
 
 						if self:IsPrioritized(j) then
 							if alpha < 1 then
