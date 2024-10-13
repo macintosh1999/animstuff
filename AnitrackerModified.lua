@@ -485,7 +485,7 @@ do
 								v.Parent:SetAttribute("AnitrackerTransform", offset)
 							elseif allDone or not usedJoints[i] then
 								if not self.NoDisableTransition then
-									v.C0 = v.C0:Lerp(v.Parent.C0 * v.Parent.Transform, .2)
+									v.C0 = v.C0:Lerp(v.Parent.C0 * v.Parent.Transform, .1)
 
 									if (v.C0.Position - (v.Parent.C0 * v.Parent.Transform).Position).Magnitude <= .2 then
 										v.Enabled = false
