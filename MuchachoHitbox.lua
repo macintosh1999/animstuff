@@ -234,9 +234,6 @@ function dictDiff.difference(a, b)
 	
 	return ret
 end
-
-
-return dictDiff
 end
 
 do
@@ -418,8 +415,6 @@ setmetatable(Signal, {
 		error(("Attempt to set Signal::%s (not a valid member)"):format(tostring(key)), 2)
 	end
 })
-
-return Signal
 
 end
 
